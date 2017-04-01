@@ -20,7 +20,7 @@
 }
 * .nav {
   background: #ff4d4d;
-  height: 90px;
+  height: 80px;
   text-align: center;
 }
 * .subtitle {
@@ -30,7 +30,7 @@
   display: inline-block;
 }
 * a {
-  margin-top: 10px;
+  margin: 5px 2.5px 5px 2.5px;
   display: inline-block;
   padding: 25px;
   background-color: #fff;
