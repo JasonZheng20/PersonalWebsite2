@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        link(rel='stylesheet', href='/css/index.css')
+        title Jason zheng
+    body
+        .header
+            h1.page-title Jason Zheng
+
+        ul.nav
+            li: a(href='/') Home
+            li: a(href='#news') News
+            li: a(href='#about') About
+            li: a(href='#contact') Contact
+
+        .main-content
+            block content
+
+        .footer
+            p Jason Zheng's Website
+
