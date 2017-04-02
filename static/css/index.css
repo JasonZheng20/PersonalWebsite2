@@ -9,8 +9,6 @@
 }
 * .header {
   height: 325px;
-  background: url("http://imgur.com/BEQL2ri.png");
-  background-position: center;
 }
 * .page-title {
   font-weight: 200;
@@ -24,6 +22,7 @@
   background: #1ac6ff;
   height: 125px;
   text-align: center;
+  animation: expand 0.75s;
 }
 * .subtitle {
   text-align: center;
@@ -32,138 +31,11 @@
   display: inline-block;
   margin: 5px 2.5px 5px 2.5px;
   background-color: #fff;
-}
-* .li2 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/moOhtUg.png");
-  background-position: center;
-}
-* .li3 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/qGilaMI.png");
-  background-position: center;
-}
-* .li4 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/iIT940P.png");
-  background-position: center;
-}
-* .li5 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/dwfVYGO.png");
-  background-position: center;
-}
-* .li6 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/8qD8gRR.png");
-  background-position: center;
-}
-* .li7 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/HSrzRVt.png");
-  background-position: center;
-}
-* .li8 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/FGI6Eqy.png");
-  background-position: center;
-}
-* .li9 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/Q2ArKMW.png");
-  background-position: center;
-}
-* .li10 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/sWP44fN.png");
-  background-position: center;
-}
-* .li11 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/MoV9zHN.png");
-  background-position: center;
-}
-* .li12 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/N2FTILd.png");
-  background-position: center;
-}
-* .li13 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/RYhSyHy.png");
-  background-position: center;
-}
-* .li14 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/jgK5P9B.png");
-  background-position: center;
-}
-* .li15 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/HbRwLp7.png");
-  background-position: center;
-}
-* .li16 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/8Gh68RI.png");
-  background-position: center;
-}
-* .li17 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/ppJmtxu.png");
-  background-position: center;
-}
-* .li18 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/TvnEFhX.png");
-  background-position: center;
-}
-* .li19 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/jttoKt3.png");
-  background-position: center;
-}
-* .li20 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/xTVfKtn.png");
-  background-position: center;
-}
-* .li21 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/w8TsBKN.png");
-  background-position: center;
-}
-* .li22 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/Tg4eudz.png");
-  background-position: center;
-}
-* .li23 {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background: url("http://imgur.com/xRHCEbA.png");
-  background-position: center;
+  opacity: 0;
+  animation: flyin 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
 }
 * a {
   color: #1ac6ff;
@@ -195,4 +67,124 @@
 * .footer p {
   color: #444;
   font-size: 12px;
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes expand {
+  from {
+    height: 0px;
+    margin-top: 62.5px;
+  }
+  to {
+    height: 125px;
+    margin-top: 0px;
+  }
+}
+@-webkit-keyframes expand {
+  from {
+    height: 0px;
+    margin-top: 62.5px;
+  }
+  to {
+    height: 125px;
+    margin-top: 0px;
+  }
+}
+@-o-keyframes expand {
+  from {
+    height: 0px;
+    margin-top: 62.5px;
+  }
+  to {
+    height: 125px;
+    margin-top: 0px;
+  }
+}
+@keyframes expand {
+  from {
+    height: 0px;
+    margin-top: 62.5px;
+  }
+  to {
+    height: 125px;
+    margin-top: 0px;
+  }
+}
+@-moz-keyframes flyin {
+  from {
+    position: relative;
+    left: 2000px;
+    opacity: 1;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flyin {
+  from {
+    position: relative;
+    left: 2000px;
+    opacity: 1;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+@-o-keyframes flyin {
+  from {
+    position: relative;
+    left: 2000px;
+    opacity: 1;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
+}
+@keyframes flyin {
+  from {
+    position: relative;
+    left: 2000px;
+    opacity: 1;
+  }
+  to {
+    position: relative;
+    left: 0px;
+    opacity: 1;
+  }
 }
