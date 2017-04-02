@@ -23,6 +23,7 @@
   height: 125px;
   text-align: center;
   animation: expand 0.75s;
+  margin: 0px -4000px 0px -4000px;
 }
 * .subtitle {
   text-align: center;
@@ -148,7 +149,7 @@
   }
   to {
     position: relative;
-    left: 0px;
+    left: -300px;
     opacity: 1;
   }
 }
@@ -160,7 +161,7 @@
   }
   to {
     position: relative;
-    left: 0px;
+    left: -300px;
     opacity: 1;
   }
 }
@@ -172,7 +173,7 @@
   }
   to {
     position: relative;
-    left: 0px;
+    left: -300px;
     opacity: 1;
   }
 }
@@ -184,7 +185,7 @@
   }
   to {
     position: relative;
-    left: 0px;
+    left: -300px;
     opacity: 1;
   }
 }
