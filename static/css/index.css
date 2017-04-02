@@ -23,7 +23,7 @@
   height: 125px;
   text-align: center;
   animation: expand 0.75s;
-  margin: 0px -4000px 0px -4000px;
+  margin: 0px 0px 0px -4000px;
 }
 * .subtitle {
   text-align: center;
@@ -144,48 +144,48 @@
 @-moz-keyframes flyin {
   from {
     position: relative;
-    left: 2000px;
+    left: 4500px;
     opacity: 1;
   }
   to {
     position: relative;
-    left: -300px;
+    left: 1700px;
     opacity: 1;
   }
 }
 @-webkit-keyframes flyin {
   from {
     position: relative;
-    left: 2000px;
+    left: 4500px;
     opacity: 1;
   }
   to {
     position: relative;
-    left: -300px;
+    left: 1700px;
     opacity: 1;
   }
 }
 @-o-keyframes flyin {
   from {
     position: relative;
-    left: 2000px;
+    left: 4500px;
     opacity: 1;
   }
   to {
     position: relative;
-    left: -300px;
+    left: 1700px;
     opacity: 1;
   }
 }
 @keyframes flyin {
   from {
     position: relative;
-    left: 2000px;
+    left: 4500px;
     opacity: 1;
   }
   to {
     position: relative;
-    left: -300px;
+    left: 1700px;
     opacity: 1;
   }
 }
