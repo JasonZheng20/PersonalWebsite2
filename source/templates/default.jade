@@ -6,32 +6,33 @@ html
     body
         .header
             h1.page-title Jason Zheng
-            .subtitle About Me  &middot;  Resume  &middot; Contact Me
-         //   ul.subtitle
-               // li.sub: a(href'#me') About Me //create buttons for different slides, this page is actually going to not be landing pg
-               // li.sub: a(href'#resume') Resume
-               // li.sub: a(href'#contact') Contact Me 
+            ul.subtitle
+                lo: mini(href'#me') About Me
+                lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                lo: mini(href'#resume') Resume
+                lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                lo: mini(href'#contact') Contact Me 
 
         ul.nav
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href='#me') &nbsp 
-            li: a(href='#zd') &nbsp
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href='#me') &nbsp; 
+            li: a(href='#zd') &nbsp;
             li: a(href='#th') About Me
-            li: a(href='#coursework') &nbsp
+            li: a(href='#coursework') &nbsp;
             li: a(href='#exp') Resume
-            li: a(href='#news') &nbsp
+            li: a(href='#news') &nbsp;
             li: a(href='#about') Contact Me
-            li: a(href='#github') &nbsp
-            li: a(href='#linkedin') &nbsp
-            li: a(href='#contact') &nbsp
-            li: a(href'/') &nbsp
-            li: a(href'/') &nbsp
+            li: a(href='#github') &nbsp;
+            li: a(href='#linkedin') &nbsp;
+            li: a(href='#contact') &nbsp;
+            li: a(href'/') &nbsp;
+            li: a(href'/') &nbsp;
         .main-content
             block content
 
