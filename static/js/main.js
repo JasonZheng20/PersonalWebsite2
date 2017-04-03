@@ -6,7 +6,7 @@ $(document).ready(function(){
         }, '500', 'swing', function(){
             $('li').animate({
                 left: "3682.5px",
-                }, '1000', 'swing');
+                }, '2000', 'swing');
         });
     });
 
@@ -16,8 +16,8 @@ $(document).ready(function(){
             marginTop: "0px",
         }, '500', 'swing', function(){
             $('li').animate({
-                left: "3682.5px",
-                }, '1000', 'swing');
+                left: "2000px",
+                }, '2000', 'swing');
         });
     });
 
@@ -27,8 +27,8 @@ $(document).ready(function(){
             marginTop: "0px",
         }, '500', 'swing', function(){
             $('li').animate({
-                left: "3682.5px",
-                }, '1000', 'swing');
+                left: "320px",
+                }, '2000', 'swing');
         });
     });
 
