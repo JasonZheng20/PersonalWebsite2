@@ -20,13 +20,14 @@
 }
 * .nav {
   background: #1ac6ff;
-  height: 125px;
+  height: 0px;
   text-align: center;
   margin: 50px 0px 0px -4000px;
 }
 * .subtitle {
   background: #fff;
   text-align: center;
+  animation: fadein 1s;
   height: 50px;
 }
 * lo {
@@ -47,14 +48,11 @@
   text-decoration: none;
 }
 * li {
+  position: relative;
+  left: 4500px;
   display: inline-block;
   margin: 5px 2.5px 5px 2.5px;
   background-color: #fff;
-  opacity: 0;
-  animation: flyin 1s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: 0.625s;
 }
 @-moz-keyframes fadein {
   from {
