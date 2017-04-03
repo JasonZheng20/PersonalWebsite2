@@ -49,10 +49,50 @@
 }
 * li {
   position: relative;
-  left: 4500px;
+  left: 5250px;
   display: inline-block;
   margin: 5px 2.5px 5px 2.5px;
   background-color: #fff;
+}
+* .large {
+  color: #1ac6ff;
+  padding-top: 45px;
+  display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-decoration: none;
+}
+* .large:hover {
+  background-color: #1ac6ff;
+  color: #fff;
+}
+* .large-blue {
+  background-color: #1ac6ff;
+  color: #fff;
+  padding-top: 45px;
+  display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-decoration: none;
+}
+* .main-content {
+  margin: 50px auto;
+  max-width: 600px;
+  color: #000;
+}
+* .main-content p {
+  line-height: 1.6;
+  margin-bottom: 1.7em;
+}
+* .footer {
+  margin: 50px auto;
+  max-width: 600px;
+  border-top: 1px solid #444;
+  padding: 20px 0;
+}
+* .footer p {
+  color: #444;
+  font-size: 12px;
 }
 @-moz-keyframes fadein {
   from {
@@ -85,92 +125,4 @@
   to {
     opacity: 1;
   }
-}
-@-moz-keyframes flyin {
-  from {
-    position: relative;
-    left: 4500px;
-    opacity: 1;
-  }
-  to {
-    position: relative;
-    left: 1650px;
-    opacity: 1;
-  }
-}
-@-webkit-keyframes flyin {
-  from {
-    position: relative;
-    left: 4500px;
-    opacity: 1;
-  }
-  to {
-    position: relative;
-    left: 1650px;
-    opacity: 1;
-  }
-}
-@-o-keyframes flyin {
-  from {
-    position: relative;
-    left: 4500px;
-    opacity: 1;
-  }
-  to {
-    position: relative;
-    left: 1650px;
-    opacity: 1;
-  }
-}
-@keyframes flyin {
-  from {
-    position: relative;
-    left: 4500px;
-    opacity: 1;
-  }
-  to {
-    position: relative;
-    left: 1650px;
-    opacity: 1;
-  }
-}
-.large {
-  color: #1ac6ff;
-  padding-top: 45px;
-  display: inline-block;
-  height: 115px;
-  width: 115px;
-  text-decoration: none;
-}
-.large:hover {
-  background-color: #1ac6ff;
-  color: #fff;
-}
-.large-blue {
-  background-color: #1ac6ff;
-  color: #fff;
-  padding-top: 45px;
-  display: inline-block;
-  height: 115px;
-  width: 115px;
-  text-decoration: none;
-}
-.main-content {
-  margin: 50px auto;
-  max-width: 600px;
-  color: #000;
-}
-.main-content p {
-  line-height: 1.6;
-  margin-bottom: 1.7em;
-}
-.footer {
-  margin: 50px auto;
-  max-width: 600px;
-  border-top: 1px solid #444;
-  padding: 20px 0;
-}
-.footer p {
-  color: #444;
-  font-size: 12px;
 }

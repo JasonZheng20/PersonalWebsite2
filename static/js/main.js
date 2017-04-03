@@ -6,7 +6,7 @@ $(document).ready(function(){
             marginTop: "0px",
         }, '500', 'swing', function(){
             $('li').animate({
-                left: "-=2250px",
+                left: "3682.5px",
                 }, '1000', 'swing');
         });
     });
