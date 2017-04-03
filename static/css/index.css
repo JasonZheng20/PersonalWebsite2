@@ -28,6 +28,12 @@
   margin: 0px 0px 0px -4000px;
   opacity: 0;
 }
+* .nav-open {
+  background: #1ac6ff;
+  height: 125px;
+  text-align: center;
+  margin: 0px 0px 0px -4000px;
+}
 * .subtitle {
   background: #fff;
   text-align: center;

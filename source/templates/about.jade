@@ -1,5 +1,13 @@
 extend default
 
+block nav-mini
+    ul.subtitle
+      lo: a.mini(href = 'about') About Me
+      lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+      lo: a.mini(href = 'resume') Resume
+      lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+      lo: a.mini(href = 'contact') Contact Me 
+
 block nav-menu
     ul.nav
         li: a.large(href'/') &nbsp;
