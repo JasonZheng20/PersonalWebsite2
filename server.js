@@ -21,14 +21,14 @@ app.get('/', function (req, res, next) {
   }
 })
 
-app.get('/about-o', function(req, res) {
+/*app.get('/about-o', function(req, res) {
   try {
     var html = aboutopen({ title: 'About'})
     res.send(html)
   } catch (e) {
     next(e)
   }
-});
+});*/
 
 app.get('/resume-o', function(req,res) {
   try {
@@ -48,14 +48,14 @@ app.get('/contact-o', function(req,res) {
   }
 });
 
-app.get('/about', function(req, res) {
+/*app.get('/about', function(req, res) {
   try {
     var html = about({ title: 'About'})
     res.send(html)
   } catch (e) {
     next(e)
   }
-});
+});*/
 
 app.get('/resume', function(req,res) {
   try {

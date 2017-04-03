@@ -6,8 +6,32 @@ html
     body
         .header
             h1.page-title Jason Zheng
-            block nav-mini
-        block nav-menu
+            ul.subtitle
+                lo: a.mini(href = '#') About Me
+                lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                lo: a.mini(href = '#') Resume
+                lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+                lo: a.mini(href = '#') Contact Me
+        ul.nav
+            li: a.large(href'/') &nbsp;
+            li: a.large(href'/') &nbsp;
+            li: a.large(href'/') &nbsp;
+            li: a.large(href'/') &nbsp;
+            li: a.large(href'/') &nbsp;
+            li: a.large(href'/') &nbsp;
+            li: a.large-blue(href'/') About Me
+            li: a.large(href='/') &nbsp;
+            li: a.large(href='#zd') &nbsp; 
+            li: a.large(href='#th') &nbsp;
+            li: a.large(href='#coursework') &nbsp; 
+            li: a.large(href='#exp') &nbsp;
+            li: a.large(href='#news') &nbsp;
+            li: a.large(href='#about') &nbsp;
+            li: a.large(href='#github') &nbsp;
+            li: a.large(href='#linkedin') My Story
+            li: a.large(href='#contact') My Goals
+
         .main-content
             block content
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/main.js"></script>

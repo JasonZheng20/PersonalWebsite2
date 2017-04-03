@@ -20,19 +20,9 @@
 }
 * .nav {
   background: #1ac6ff;
-  height: 125px;
+  height: 0px;
   text-align: center;
-  animation: expand 0.75s;
-  animation-delay: 0.75s;
-  animation-fill-mode: forwards;
-  margin: 0px 0px 0px -4000px;
-  opacity: 0;
-}
-* .nav-open {
-  background: #1ac6ff;
-  height: 125px;
-  text-align: center;
-  margin: 0px 0px 0px -4000px;
+  margin: 50px 0px 0px -4000px;
 }
 * .subtitle {
   background: #fff;
@@ -61,60 +51,6 @@
   margin: 5px 2.5px 5px 2.5px;
   background-color: #fff;
   opacity: 0;
-  animation: flyin 1s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: 0.625s;
-}
-* li-primary {
-  display: inline-block;
-  margin: 5px 2.5px 5px 2.5px;
-  background-color: #fff;
-  opacity: 0;
-  animation: flyin 1s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: 1.25s;
-}
-* .large {
-  color: #1ac6ff;
-  padding-top: 45px;
-  display: inline-block;
-  height: 115px;
-  width: 115px;
-  text-decoration: none;
-}
-* .large:hover {
-  background-color: #1ac6ff;
-  color: #fff;
-}
-* .large-blue {
-  background-color: #1ac6ff;
-  color: #fff;
-  padding-top: 45px;
-  display: inline-block;
-  height: 115px;
-  width: 115px;
-  text-decoration: none;
-}
-* .main-content {
-  margin: 50px auto;
-  max-width: 600px;
-  color: #000;
-}
-* .main-content p {
-  line-height: 1.6;
-  margin-bottom: 1.7em;
-}
-* .footer {
-  margin: 50px auto;
-  max-width: 600px;
-  border-top: 1px solid #444;
-  padding: 20px 0;
-}
-* .footer p {
-  color: #444;
-  font-size: 12px;
 }
 @-moz-keyframes fadein {
   from {
@@ -243,4 +179,44 @@
     left: 1650px;
     opacity: 1;
   }
+}
+.large {
+  color: #1ac6ff;
+  padding-top: 45px;
+  display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-decoration: none;
+}
+.large:hover {
+  background-color: #1ac6ff;
+  color: #fff;
+}
+.large-blue {
+  background-color: #1ac6ff;
+  color: #fff;
+  padding-top: 45px;
+  display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-decoration: none;
+}
+.main-content {
+  margin: 50px auto;
+  max-width: 600px;
+  color: #000;
+}
+.main-content p {
+  line-height: 1.6;
+  margin-bottom: 1.7em;
+}
+.footer {
+  margin: 50px auto;
+  max-width: 600px;
+  border-top: 1px solid #444;
+  padding: 20px 0;
+}
+.footer p {
+  color: #444;
+  font-size: 12px;
 }
