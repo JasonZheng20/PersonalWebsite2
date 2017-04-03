@@ -31,18 +31,18 @@
 * .subtitle {
   background: #fff;
   text-align: center;
-  animation: fadein 1s;
   height: 50px;
 }
 * lo {
   display: inline-block;
   background-color: #fff;
 }
-* mini {
+* .mini {
   color: #000;
+  display: inline-block;
   text-decoration: none;
 }
-* mini:hover {
+* .mini:hover {
   color: #1ac6ff;
 }
 * li {
@@ -55,7 +55,7 @@
   animation-fill-mode: forwards;
   animation-delay: 1.25s;
 }
-* a {
+* .large {
   color: #1ac6ff;
   padding-top: 45px;
   display: inline-block;
@@ -63,9 +63,18 @@
   width: 115px;
   text-decoration: none;
 }
-* a:hover {
+* .large:hover {
   background-color: #1ac6ff;
   color: #fff;
+}
+* .large-blue {
+  background-color: #1ac6ff;
+  color: #fff;
+  padding-top: 45px;
+  display: inline-block;
+  height: 115px;
+  width: 115px;
+  text-decoration: none;
 }
 * .main-content {
   margin: 50px auto;
@@ -121,7 +130,7 @@
 @-moz-keyframes expand {
   from {
     height: 0px;
-    margin-top: 62.5px;
+    margin-top: 50px;
     opacity: 1;
   }
   to {
@@ -133,7 +142,7 @@
 @-webkit-keyframes expand {
   from {
     height: 0px;
-    margin-top: 62.5px;
+    margin-top: 50px;
     opacity: 1;
   }
   to {
@@ -145,7 +154,7 @@
 @-o-keyframes expand {
   from {
     height: 0px;
-    margin-top: 62.5px;
+    margin-top: 50px;
     opacity: 1;
   }
   to {
@@ -157,7 +166,7 @@
 @keyframes expand {
   from {
     height: 0px;
-    margin-top: 62.5px;
+    margin-top: 50px;
     opacity: 1;
   }
   to {
@@ -174,7 +183,7 @@
   }
   to {
     position: relative;
-    left: 1760px;
+    left: 1650px;
     opacity: 1;
   }
 }
@@ -186,7 +195,7 @@
   }
   to {
     position: relative;
-    left: 1760px;
+    left: 1650px;
     opacity: 1;
   }
 }
@@ -198,7 +207,7 @@
   }
   to {
     position: relative;
-    left: 1760px;
+    left: 1650px;
     opacity: 1;
   }
 }
@@ -210,7 +219,7 @@
   }
   to {
     position: relative;
-    left: 1760px;
+    left: 1650px;
     opacity: 1;
   }
 }

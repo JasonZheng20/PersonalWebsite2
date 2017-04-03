@@ -7,32 +7,13 @@ html
         .header
             h1.page-title Jason Zheng
             ul.subtitle
-                lo: mini(href'#me') About Me
+                lo: a.mini(href = 'about') About Me
                 lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                lo: mini(href'#resume') Resume
+                lo: a.mini(href = 'resume') Resume
                 lo:  &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-                lo: mini(href'#contact') Contact Me 
+                lo: a.mini(href = 'contact') Contact Me 
 
-        ul.nav
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href='#me') &nbsp; 
-            li: a(href='#zd') &nbsp;
-            li: a(href='#th') About Me
-            li: a(href='#coursework') &nbsp;
-            li: a(href='#exp') Resume
-            li: a(href='#news') &nbsp;
-            li: a(href='#about') Contact Me
-            li: a(href='#github') &nbsp;
-            li: a(href='#linkedin') &nbsp;
-            li: a(href='#contact') &nbsp;
-            li: a(href'/') &nbsp;
-            li: a(href'/') &nbsp;
+        block nav-menu
         .main-content
             block content
 
