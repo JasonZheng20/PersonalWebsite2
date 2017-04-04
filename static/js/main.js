@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    $('lo#a').click(function() {
+    $('div.mini#a').click(function() { //on first click, decrease the top y position
+        $(this).css("color", "#1ac6ff");
+        $('div.mini#r').css("color", "#000");
+        $('div.mini#c').css("color", "#000");
         $('ul.nav').animate({
             height: "125px",
             marginTop: "0px",
@@ -10,7 +13,10 @@ $(document).ready(function(){
         });
     });
 
-    $('lo#r').click(function() {
+    $('div.mini#r').click(function() {
+        $(this).css("color", "#1ac6ff");
+        $('div.mini#a').css("color", "#000");
+        $('div.mini#c').css("color", "#000");
         $('ul.nav').animate({
             height: "125px",
             marginTop: "0px",
@@ -21,7 +27,10 @@ $(document).ready(function(){
         });
     });
 
-    $('lo#c').click(function() {
+    $('div.mini#c').click(function() {
+        $(this).css("color", "#1ac6ff");
+        $('div.mini#a').css("color", "#000");
+        $('div.mini#r').css("color", "#000"); 
         $('ul.nav').animate({
             height: "125px",
             marginTop: "0px",
@@ -33,3 +42,10 @@ $(document).ready(function(){
     });
 
 });
+
+
+/* $('.header').animate({
+ *  y position: "0px" }, '800', 'swing', function() {next function});
+ *
+ *
+ */
