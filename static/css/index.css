@@ -8,29 +8,38 @@
   font-family: 'Source Code Pro', monospace;
 }
 * .header {
-  top: 100px;
-  height: 325px;
+  margin: 90px 0px 20px 0px;
+  height: 320px;
 }
 * .page-title {
   font-weight: 200;
-  font-size: 80px;
+  font-size: 85px;
   text-align: center;
   padding-top: 175px;
+  padding-bottom: 10px;
   text-transform: uppercase;
+  letter-spacing: 8px;
   color: #06c;
+  opacity: 0;
+  animation: fadein 1.5s;
+  animation-fill-mode: forwards;
 }
 * .nav {
   background: #1ac6ff;
   height: 0px;
   text-align: center;
-  margin: 50px 0px 0px -4000px;
+  margin: 62.5px 0px 0px -4000px;
   overflow: hidden;
 }
 * .subtitle {
   background: #fff;
   text-align: center;
-  animation: fadein 1s;
-  height: 50px;
+  font-size: 20px;
+  opacity: 0;
+  animation: fadein 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  height: 30px;
   color: #000;
 }
 * lo {
@@ -59,6 +68,7 @@
   background-color: #fff;
 }
 * .large {
+  font-size: 20px;
   color: #1ac6ff;
   padding-top: 45px;
   display: inline-block;
@@ -71,6 +81,7 @@
   color: #fff;
 }
 * .large-blue {
+  font-size: 20px;
   background-color: #1ac6ff;
   color: #fff;
   padding-top: 45px;
