@@ -37,7 +37,7 @@ $(document).ready(function(){
         $("lo > div").removeClass('mini-blue').addClass('mini');
         $(this).addClass('mini-blue');
         if (!headerUp) {
-        $('.header').animate({ marginTop: "0px"}, '75', 'swing', function() {
+        $('.header').animate({ marginTop: "0px"}, '15', 'swing', function() {
             $('ul.nav').animate({
                 height: "125px",
                 marginTop: "0px",
@@ -61,7 +61,7 @@ $(document).ready(function(){
         $("lo > div").removeClass('mini-blue').addClass('mini');
         $(this).addClass('mini-blue');
         if (!headerUp) {
-        $('.header').animate({ marginTop: "0px"}, '75', 'swing', function() {
+        $('.header').animate({ marginTop: "0px"}, '15', 'swing', function() {
             $('ul.nav').animate({
                 height: "125px",
                 marginTop: "0px",
@@ -104,6 +104,10 @@ $(document).ready(function(){
         }
 
     });
+
+    /*$('.page-title').click(function() {
+        $(this).text('My Story');
+    });*/
 
 });
 
