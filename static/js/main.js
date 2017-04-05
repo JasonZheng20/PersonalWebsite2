@@ -1,4 +1,4 @@
-var headerUp= false;
+/*var headerUp= false;
 var currIndex = 0;
 
 $(document).ready(function(){
@@ -105,9 +105,9 @@ $(document).ready(function(){
 
     });
 
-    /*$('.page-title').click(function() {
+    $('.page-title').click(function() {
         $(this).text('My Story');
-    });*/
+    });
 
 });
-
+*/
