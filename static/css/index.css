@@ -11,6 +11,12 @@
   margin: 90px 0px 20px 0px;
   height: 320px;
 }
+* .svg-sig {
+  display: block;
+  margin-left: 110px;
+  margin-top: 175px;
+  transform: scale(1.1, 0.75);
+}
 * .page-title {
   font-weight: 200;
   font-size: 85px;
